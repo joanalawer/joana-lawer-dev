@@ -1,0 +1,45 @@
+.homepage {
+    background: url(../images/home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage img{
+    background-color: darkgray;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+    size: 40%;
+}
+
+#content {
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.homepage h1 {
+   padding-top: 3%;
+   padding-bottom: 3%;
+   color: darkgray;
+}
+
+.homepage button {
+    color: whitesmoke;
+}
+
+.btn {
+    background-color: darkgray;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.nav-item {
+    padding: 1.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+}
