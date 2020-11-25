@@ -16,7 +16,7 @@ html, body {
 }
 
 .homepage {
-    background: url(../images/home.jpg);
+    background: url('../images/home.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -95,6 +95,12 @@ html, body {
     margin-bottom: 1rem;
 }
 
+.col-lg-6 img{
+    border-radius: 15px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+
+}
+
 #quote-message {
     font-family: 'Times New Roman';
     font-style: italic;
@@ -102,10 +108,8 @@ html, body {
     padding-top: 8rem;
 }
 
-#contact-message {
-    font-family: 'Times New Roman';
-    font-style: italic;
-    text-align: right;
+#quote-message a {
+    text-decoration: none;
 }
 
 .fa-file-code-o {
@@ -118,7 +122,7 @@ html, body {
     color: #563d7c;
 }
 .fa-file-code-o, .fa-code, .fa-code {
-    font-size: 4em;
+    font-size: 25em;
     margin: 1rem;
 }
 .fun {
@@ -128,36 +132,45 @@ html, body {
 .gif {
     max-width: 100%;
 }
-.social a {
-    font-size: 4.5em;
-    padding: 3rem;
+
+#contact-message {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    text-align: right;
 }
-.fa-facebook {
+
+.address li{
+    list-style: none;
+}
+
+.contact-details {
+    font-size: 20px
+}
+
+.contact-details  i{
+    font-size: 20px;
+    padding-right: 1rem;
+}
+
+.social-link li{
+    display: inline-block;
+    padding-top: 4em;
+}
+
+.social-link i{
+    font-size: 3em;
+    padding: 1rem;
     color: #0f1011;
 }
-.fa-twitter {
-    color: #0f1011;
-}
-.fa-linkedin {
-    color: #0f1011;
-}
-.fa-github {
-    color: #0f1011;
-}
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-linkedin:hover,
-.fa-github:hover {
-    color: #d5d5d5;
-}
+
 footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
-    padding-top: 1rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
 }
-.footer a {
-    color: #d5d5d5;
-}
+
+
 
 
 /*---Media Queries ---*/
@@ -196,9 +209,6 @@ footer {
 }
 
 /*--- Fixed Background Image ---*/
-figure{
-
-}
 
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)
