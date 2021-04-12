@@ -29,6 +29,14 @@ html, body {
     size: 40%;
 }
 
+h1 {
+    font-family: 'Yeseva One', cursive;
+}
+
+.workline img {
+    margin-bottom: 15px;
+}
+
 #content {
     padding-top: 10%;
     padding-bottom: 20%;
@@ -170,7 +178,15 @@ footer {
     padding-top: 2rem;
 }
 
+/* PROJECT 1 CSS  */
+.chatbot img{
+    display: block;
+    width: 1070px;
+	height: 700px;
+	padding: 10px;
+}
 
+/* PROJECT 1 CSS END */
 
 
 /*---Media Queries ---*/
