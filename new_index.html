@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../static/css/blog.css">
-    <link href="/home/cybrex/blog/static/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+    <link href="static/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">    
 
@@ -18,17 +18,16 @@
       <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container fluid">
-        <a class="navbar-brand" href="index.html">Joana Lawer</a>
+        <a class="navbar-brand" href="new_index.html">Joana Lawer</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
-              <!-- <a href="" onclick="openSideMenu()"></a> -->
             </span>  
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link " href="index.html">Home</a>
+                    <a class="nav-link " href="new_index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="projects.html">Portfolio</a>
@@ -90,24 +89,6 @@
   </div>
 </figure>
 
-<!-- LEISURE GAMES
-<button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>
-<div id="emoji" class="collapse">
-  <div class="container-fluid padding">
-    <div class="row text-center">
-      <div class="col-sm-6 col-md-3">
-        <img class="gif" src="">
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <img class="gif" src="">
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <img class="gif" src="">
-      </div>
-    </div>
-  </div>
-</div> -->
-
 <!-- PORTFOLIO SECTION -->
 <div class="container padding">
   <div class="row welcome text-center"> 
@@ -126,9 +107,9 @@
         <img class="card-img-top" src="../static/images/chatbot.jpg">
         <div class="card-body">
           <h4 class="card-title"><b>P.A. Chatbot</b></h4>
-          <p>Using Python and NLTK and Keras</p>
+          <p>Using Python and NLTK and Scikit Learn</p>
           <br>
-          <a class="btn btn-outline-secondary" href="project1.html">More ...</a>
+          <a class="btn btn-outline-secondary" href="new_project1.html">More ...</a>
         </div>
       </div>
     </div>
@@ -156,12 +137,23 @@
       </div>
     </div> -->
 
+    <!-- <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../static/images/project3.jpg">
+        <div class="card-body">
+          <h4 class="card-title"><b>Schedule Reminder</b></h4>
+          <p>A management app and reminder for schedule for events</p>
+          <a class="btn btn-outline-secondary" href="project3.html">More ...</a>
+        </div>
+      </div>
+    </div> -->
+
     <div class="col-md-4">
       <div class="card">
         <img class="card-img-top" src="../static/images/project3.jpg">
         <div class="card-body">
-          <h4 class="card-title"><b>AML Model</b></h4>
-          <p>A management app and reminder for schedule for events</p>
+          <h4 class="card-title"><b>CybreX</b></h4>
+          <p>A spam detection App  </p>
           <a class="btn btn-outline-secondary" href="project3.html">More ...</a>
         </div>
       </div>
@@ -257,36 +249,36 @@
     <div class="col-lg-6">
       <div class="contact-details">
         <li class="email"><i class="far fa-envelope"></i>jlawer90@gmail.com</li><br>
-        <li class="website"><i class="fas fa-globe"></i> www.joanalawer.com</li>
+        <li class="website"><i class="fas fa-globe"></i> www.joana-lawer.com</li>
       </div>
       <ul class="social-link">
         <li class="twitter"><a href="https://twitter.com/joana_lawer"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
         <li class="facebook"><a href="https://web.facebook.com/joana.lawer/"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-        <li class="pinterest"><a href="https://www.linkedin.com/in/joanalawer/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/joanalawer/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
         <li class="github"><a href="https://github.com/Joana477"><i class="fab fa-github" aria-hidden="true"></i></a></li>
       </ul>
     </div>
 
 <!-- CONTACT FORM  -->
+
+
     <div class="col-lg-6">
-      <div class="form">
-        <form action="http://postmail.invotes.com/send" method="post" id="email_form">
+      <div class="form-group" id="auto-clear">
+        <!-- <form action="https://formsubmit.co/jlawer90@gmail.com" method="POST"> -->
           <div class="form-group">
-            <input type="name" class="form-control" placeholder="Name">
+            <input type="text" name="name" class="form-control" placeholder="Name">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email">
+            <input type="email" name="email" class="form-control" placeholder="Email" required>
           </div>
           <div  class="form-group">
-              <textarea type="message" class="form-control" placeholder="Your Message"></textarea>
+              <textarea type="text" name="message" class="form-control" placeholder="Your Message" required></textarea>
           </div>
-          <input type="hidden" name="access_token" value="u098q0aqg2rlq9z00vywporl">
-          <input type="hidden" name="success_url" value="/index.html" />
-          <input type="hidden" name="error_url" value=".?err=1" />
-
-          <button type="submit" class="btn btn-lg btn-info justify-right" value="Send" id="submit_form"> Submit</button>
+          <button type="submit" class="btn btn-lg btn-info justify-right"> Submit</button>
+          <input type="hidden" name="_next" value="https://joana-lawer.co/new_index.html">
       </form>
       </div>
+      <div id="remarks" class="sent-mail">Email Sent.</div>
     </div>
   </div>
 </div>
@@ -303,16 +295,6 @@
 </footer>
 
     <!-- Optional JavaScript -->
-    <script>
-      var submitButton = document.getElementById("submit_form");
-      var form = document.getElementById("email_form");
-      form.addEventListener("submit", function (e) {
-          setTimeout(function() {
-              submitButton.value = "Sending...";
-              submitButton.disabled = true;
-          }, 1);
-      });
-  </script> 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
