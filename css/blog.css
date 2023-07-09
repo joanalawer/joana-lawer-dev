@@ -1,0 +1,218 @@
+@import url('https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: url('../Lato/Lato-Black.ttf');
+    color: #222;
+}
+.navbar {
+    padding: .8rem;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.homepage {
+    background: url(../images/home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage img{
+    background-color: darkgray;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+    size: 40%;
+}
+
+#content {
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.homepage h1 {
+   padding-top: 3%;
+   padding-bottom: 3%;
+   color: darkgray;
+}
+
+.homepage button {
+    color: whitesmoke;
+}
+
+.btn {
+    background-color: darkgray;
+}
+
+/* .carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+} */
+.btn-primary {
+    background-color: #222;
+    border: 1px solid #222;
+}
+.btn-primary:hover {
+    background-color: #222;
+    border: 1px solid #222;
+}
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+.padding {
+    padding-bottom: 2rem;
+}
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#quote-message {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    text-align: right;
+    padding-top: 8rem;
+}
+
+#contact-message {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    text-align: right;
+}
+
+.fa-file-code-o {
+    color: #563d7c;
+}
+.fa-code {
+    color: #563d7c;
+}
+.fa-code {
+    color: #563d7c;
+}
+.fa-file-code-o, .fa-code, .fa-code {
+    font-size: 4em;
+    margin: 1rem;
+}
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.gif {
+    max-width: 100%;
+}
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook {
+    color: #0f1011;
+}
+.fa-twitter {
+    color: #0f1011;
+}
+.fa-linkedin {
+    color: #0f1011;
+}
+.fa-github {
+    color: #0f1011;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+    color: #d5d5d5;
+}
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+}
+.footer a {
+    color: #d5d5d5;
+}
+
+
+/*---Media Queries ---*/
+@media (max-width: 992px){
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+@media (max-width: 768px){
+    .carousel-caption {
+        top: 50%;
+    }
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+    .carousel-caption h3 {
+        font-size: 200%;
+        font-weight: 500;
+        text-shadow: 1px 1px 10px #000;
+        padding-bottom: 1rem;
+    }
+    
+}
+@media (max-width: 576px){
+
+}
+
+/*---Firefox Bug Fix ---*/
+.carousel-item{
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+/*--- Fixed Background Image ---*/
+figure{
+
+}
+
+/* 
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 768px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 576px) { ... }
+
+Large (lg) devices (desktop, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) devices (larde desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
