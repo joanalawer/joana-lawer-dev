@@ -151,6 +151,13 @@ h1 {
     color: #0f1011;
 }
 
+.col-lg-6 #condition {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+}
+
 footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
