@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Joana Lawer | Home</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,10 +12,10 @@
     <link href="static/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">    
-
+    {% block head %} {% endblock %}
 </head>
   <body>
-      <!-- NAVIGATION BAR -->
+    <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container fluid">
         <a class="navbar-brand" href="index.html">Joana Lawer</a>
@@ -43,18 +42,19 @@
           </div>
         </div>
     </nav>
-
+    <!-- NAVIGATION BAR END -->
+    {% block body %} {% endblock %}
 <!-- FOOTER -->
 <footer>
   <div class="container-fluid padding">
     <div class="row text-center">
       <div class="col-md-12">
-        <h6>&copy; Copyright 2023. By Joana Lawer</h6>
+        <h6>&copy; Copyright 2023 by Joana Lawer | All Rights Reserved.</h6>
       </div>
     </div>
   </div>
 </footer>
-
+<!-- FOOTER END -->
     <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
