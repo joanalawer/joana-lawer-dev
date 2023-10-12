@@ -1,5 +1,5 @@
 templates/vmware.html
-/joana_env
+joana_env
 .vscode
 static
 .ipynb_checkpoint
