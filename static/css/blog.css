@@ -6,7 +6,11 @@ html, body {
     color: #081b29;
 }
 
-
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
 
 .navbar {
     padding: .8rem;
