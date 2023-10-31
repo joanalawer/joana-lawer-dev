@@ -1,53 +1,64 @@
 @import url('https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
-html, body {
+
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e48;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+html {
     height: 100%;
     width: 100%;
     font-family: url('../Lato/Lato-Black.ttf');
-    color: #081b29;
 }
 
-.logo {
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.menu_list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo_name {
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
 }
 
-.navbar {
-    padding: .8rem;
-}
-.navbar-nav li{
+/* .navbar li{
     padding-right: 20px;
-}
-.collapse a {
+} */
+
+.menu a {
     font-size: 1.7rem;
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
     transition: .3s;
 }
-.collapse a:hover {
+
+.menu a:hover, .menu a.active {
     color: var(--main-color);
 }
-.nav-link {
-    font-size: 1.1em !important;
-}
 
-.homepage {
-    background: url('../images/home.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.homepage img{
-    background-color: darkgray;
+.homepage img {
+    background-color: var(--bg-color);
 	width: 200px;
 	height: 200px;
 	padding: 10px;
     size: 40%;
-}
-
-h1 {
-    font-family: 'Yeseva One', cursive;
 }
 
 .workline img {
@@ -59,18 +70,12 @@ h1 {
     padding-bottom: 20%;
 }
 
-.homepage h1 {
-   padding-top: 3%;
-   padding-bottom: 3%;
-   color: darkgray;
-}
-
 .homepage button {
-    color: whitesmoke;
+    color: var(--text-color);
 }
 
 .btn {
-    background-color: darkgray;
+    background-color: var(--main-color);
 }
 
 .btn-primary {
