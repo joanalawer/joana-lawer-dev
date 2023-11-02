@@ -47,6 +47,20 @@ body {
     font-weight: 600;
 }
 
+
+.menu_list a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+}
+
+.menu_list a:hover, .menu_list a.active {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
 .modal {
     display: none; 
     position: fixed; 
@@ -69,6 +83,12 @@ body {
     border: 1px solid #888;
     width: 80%;
   }
+  .modal-content h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--second-bg-color);
+  }
   
   /* The Close Button */
   .close {
@@ -84,19 +104,6 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
-
-.menu_list a {
-    font-size: 1.7rem;
-    color: var(--text-color);
-    font-weight: 500;
-    margin-left: 3.5rem;
-    transition: .3s;
-}
-
-.menu_list a:hover, .menu_list a.active {
-    color: var(--main-color);
-    text-decoration: none;
-}
 
 .homepage .text-center button {
     position: relative;
