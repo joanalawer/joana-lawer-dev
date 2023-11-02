@@ -7,10 +7,20 @@
     --main-color: #00abf0;
 }
 
-html {
-    height: 100%;
-    width: 100%;
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
     font-family: url('../Lato/Lato-Black.ttf');
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -37,6 +47,7 @@ body {
     font-weight: 600;
 }
 
+
 .menu_list a {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -47,6 +58,7 @@ body {
 
 .menu_list a:hover, .menu_list a.active {
     color: var(--main-color);
+    text-decoration: none;
 }
 
 .homepage .text-center button {
