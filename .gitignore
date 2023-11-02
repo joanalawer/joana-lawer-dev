@@ -1,8 +1,4 @@
-templates/vmware.html
 /joana_env
 .vscode
 static
-.ipynb_checkpoint
 __pycache__
-blog.py
-requirements.txt
