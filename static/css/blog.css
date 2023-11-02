@@ -125,6 +125,37 @@ body {
     font-weight: 600;
     letter-spacing: .1rem;
     color: var(--bg-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.homepage .text-center .btn:hover {
+    color: var(--main-color);
+}
+
+.homepage .text-center .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.homepage .text-center .btn:hover::before {
+    width: 100%; 
+}
+
+.btn-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 34.5rem;
+    height: 4rem;
 }
 
 .btn-box .btn {
@@ -143,22 +174,27 @@ body {
     color: var(--bg-color);
     z-index: 1;
     overflow: hidden;
+    transition: .5s;
 }
 
-btn-box .btn::before {
+.btn-box .btn:hover {
+     color: var(--main-color);
+}
+
+.btn-box .btn::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
-    background: red;
+    background: var(--bg-color);
     z-index: -1;
     transition: .5s;
 }
 
 .btn-box .btn:hover::before {
-    width: 100%;
+    width: 100%; 
 }
 
 .homepage img {
