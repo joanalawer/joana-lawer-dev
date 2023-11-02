@@ -90,6 +90,12 @@ body {
     color: var(--second-bg-color);
   }
   
+  .modal-content p {
+    font-size: 1.3rem;
+    margin: 2rem 0 4rem;
+    color: var(--second-bg-color);
+}
+
   /* The Close Button */
   .close {
     color: #aaaaaa;
@@ -119,16 +125,6 @@ body {
     font-weight: 600;
     letter-spacing: .1rem;
     color: var(--bg-color);
-}
-
-.modal-header h1 {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.modal-body p {
-    font-size: 1.3rem;
-    margin: 2rem 0 4rem;
 }
 
 .btn-box .btn {
