@@ -273,43 +273,6 @@ span {
 }
 /* Modal styling ends */
 
-.homepage img {
-    background-color: var(--bg-color);
-	width: 200px;
-	height: 200px;
-	padding: 10px;
-    size: 40%;
-}
-
-.workline img {
-    margin-bottom: 15px;
-}
-
-#content {
-    padding-top: 10%;
-    padding-bottom: 20%;
-}
-
-.homepage button {
-    color: var(--text-color);
-}
-
-.btn {
-    background-color: var(--main-color);
-}
-
-.btn-primary {
-    background-color: #222;
-    border: 1px solid #222;
-}
-.btn-primary:hover {
-    background-color: #222;
-    border: 1px solid #222;
-}
-.jumbotron {
-    padding: 1rem;
-    border-radius: 0;
-}
 .padding {
     padding-bottom: 2rem;
 }
