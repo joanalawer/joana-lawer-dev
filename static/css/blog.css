@@ -197,6 +197,44 @@ body {
     width: 100%; 
 }
 
+.social-profile {
+    justify-content: space-between;
+}
+
+.social-profile a {
+    margin-top: 50px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--main-color);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.social-profile a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.social-profile a:hover::before {
+    width: 100%;
+}
+/* Modal sryling ends */
+
 .homepage img {
     background-color: var(--bg-color);
 	width: 200px;
@@ -236,17 +274,6 @@ body {
 }
 .padding {
     padding-bottom: 2rem;
-}
-.welcome {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;
-}
-.welcome hr {
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
 }
 
 .col-lg-6 img{
