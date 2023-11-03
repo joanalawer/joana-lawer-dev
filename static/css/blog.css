@@ -117,43 +117,13 @@ span {
 }
 
 /* Style Profile button */
-.text-center .btn {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 10rem;
-    height: 100%;
-    background: var(--main-color);
-    border: .2rem solid var(--main-color);
-    border-radius: .8rem;
-    font-size: 1.3rem;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    color: var(--bg-color);
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
+.btn-box.btns {
+    display: inline-block;
+    width: 15rem;
 }
 
-.text-center .btn:hover {
-    color: var(--main-color);
-}
-
-.text-center .btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--bg-color);
-    z-index: -1;
-    transition: .5s;
-}
-
-.text-center .btn:hover::before {
-    width: 100%; 
+.btn-box.btns a::before {
+    background: var(--second-bg-color);
 }
 
 /* Modal styling begins */
