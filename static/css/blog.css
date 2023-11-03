@@ -148,6 +148,7 @@ body {
     cursor: pointer;
   }
 
+  /* Let's Talk button */
 .btn-box {
     position: relative;
     display: flex;
@@ -195,6 +196,7 @@ body {
     width: 100%; 
 }
 
+/* Social Media Icons */
 .social-profile a {
     text-decoration: none;
     margin-top: 50px;
