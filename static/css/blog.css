@@ -273,6 +273,9 @@ span {
 }
 /* Modal styling ends */
 
+/* Services styling */
+.services .portfolio 
+
 .padding {
     padding-bottom: 2rem;
 }
@@ -283,37 +286,6 @@ span {
 
 }
 
-#quote-message {
-    font-family: 'Times New Roman';
-    font-style: italic;
-    text-align: right;
-    padding-top: 8rem;
-}
-
-#quote-message a {
-    text-decoration: none;
-}
-
-.fa-file-code-o {
-    color: #563d7c;
-}
-.fa-code {
-    color: #563d7c;
-}
-.fa-code {
-    color: #563d7c;
-}
-.fa-file-code-o, .fa-code, .fa-code {
-    font-size: 25em;
-    margin: 1rem;
-}
-.fun {
-    width: 100%;
-    margin-bottom: 2rem;
-}
-.gif {
-    max-width: 100%;
-}
 
 #contact-message {
     font-family: 'Times New Roman';
