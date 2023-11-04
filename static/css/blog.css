@@ -273,8 +273,13 @@ span {
 }
 /* Modal styling ends */
 
-/* Services styling */
-.services .portfolio 
+/* Services */
+.services-heading {
+    display:inline; 
+    font-size: 35px;
+}
+
+/*  */
 
 .padding {
     padding-bottom: 2rem;
