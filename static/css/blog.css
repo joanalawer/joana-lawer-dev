@@ -319,7 +319,7 @@ center .section-subheading .text-muted {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--bg-color);
+    background: var(--main-color);
     z-index: -1;
     transition: .5s;
 }
@@ -327,7 +327,20 @@ center .section-subheading .text-muted {
 .services .row i:hover::before {
     width: 100%;
 }
-/*  */
+
+.services .row h4{
+    font-size: 2.3rem;
+}
+
+.services .row p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+/* Portfolio design */
+
+
+
 
 .padding {
     padding-bottom: 2rem;
