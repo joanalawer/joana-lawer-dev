@@ -283,8 +283,8 @@ hr {
     width: 100px;
     height: 1px;
     border:none;
-    color:#333;
-    background-color:#333;
+    color:var(--text-color);
+    background-color: var(--text-color);
 }
 
 center .section-subheading .text-muted {
@@ -340,18 +340,18 @@ center .section-subheading .text-muted {
 /* Portfolio design */
 /* Style Profile Image */
 .portfolio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
     background: var(--second-bg-color);
-    padding-bottom: 6rem;
+}
+
+.portfolio-heading {
+    display:inline;
+    font-size: 35px;
 }
 
 
 
 
+/*  */
 .padding {
     padding-bottom: 2rem;
 }
