@@ -338,6 +338,16 @@ center .section-subheading .text-muted {
 }
 
 /* Portfolio design */
+/* Style Profile Image */
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    padding-bottom: 6rem;
+}
 
 
 
