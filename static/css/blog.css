@@ -279,6 +279,19 @@ span {
     font-size: 35px;
 }
 
+hr {
+    width: 100px;
+    height: 1px;
+    border:none;
+    color:#333;
+    background-color:#333;
+}
+
+center .section-subheading .text-muted {
+    max-width: 500px;
+    line-height: 27px;
+}
+
 /*  */
 
 .padding {
