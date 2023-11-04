@@ -275,7 +275,7 @@ span {
 
 /* Services */
 .services-heading {
-    display:inline; 
+    display:inline;
     font-size: 35px;
 }
 
@@ -312,7 +312,7 @@ center .section-subheading .text-muted {
     overflow: hidden;
 }
 
-.services .row i::before {
+/* .services .row i::before {
     content: '';
     position: absolute;
     top: 0;
@@ -326,13 +326,13 @@ center .section-subheading .text-muted {
 
 .services .row i:hover::before {
     width: 100%;
-}
+} */
 
 .services .row h4{
     font-size: 2.3rem;
 }
 
-.services .row p {
+.services .row:nth-child(2) p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
