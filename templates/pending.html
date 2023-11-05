@@ -16,38 +16,27 @@
 </head>
 <body>
     <!-- NAVIGATION BAR -->
-  <nav class= "navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container fluid">
-        <a class="navbar-brand" href="index.html"><img src="" alt="Joana Lawer"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon">
-              <a href="" onclick="openSideMenu()"></a>
-            </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link " href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="about.html">About Me</a>
-                </li>          
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    </nav> 
+    <header class="header">
+        <a href="index.html" class="logo_name" style="text-decoration: none; ">Joana.</a>
+
+        <!-- menu icon -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="menu_list">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">Services</a>
+          <a href="#projects">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
   
     <div class="construction">
         <!-- <a href="https://storyset.com/web">Illustration by Freepik Storyset</a> -->
         <h1>Ooops! This Page Is Under Construction</h1>
         <img src="../static/images/Website_setup.gif"><br>
-        <a href="index.html"><button type="submit" class="btn btn-lg"> Take Me Home </button></a>
+        <div class="btn-box btns">
+            <a href="#" class="btn" id="btn" style="width: 20rem;">Take Me Home</a>
+          </div>
     </div>
       
 </body>
