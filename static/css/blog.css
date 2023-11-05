@@ -352,6 +352,7 @@ center .section-subheading .text-muted {
     margin-top: 50px;
     margin-bottom: 20px;
     border: .1rem solid var(--main-color);
+    background: transparent;
 }
 
 .portfolio .row h4{
