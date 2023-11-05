@@ -371,15 +371,21 @@ center .section-subheading .text-muted {
 margin-bottom: 30px;}
 
 .contact-details {
-    font-size: 20px
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
-.contact-details  i{
+.contact-details  i {
     font-size: 20px;
     padding-right: 1rem;
+    
 }
 
-.conntact {
+.contact {
     min-height: auto;
     padding-bottom: 7rem;
 }
@@ -395,6 +401,24 @@ margin-bottom: 30px;}
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.contact form .form-input .input-field input,
+.contact form .textarea-field textarea {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+}
+
+.contact form .form-input .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder {
+    color: var(--text-color);
 }
 
 
