@@ -416,8 +416,24 @@ margin-bottom: 30px;}
     color: var(--text-color);
 }
 
+.contact form .textarea-field {
+    position: relative;
+    margin: .8rem 0 2.7rem;
+    display: flex;
+}
+
+.contact form .textarea-field textarea {
+    resize: none;
+}
+
+.contact form .btn-box.btns .btn {
+    cursor: pointer;
+}
 
 
+
+
+/* Footer */
 footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
