@@ -379,12 +379,25 @@ margin-bottom: 30px;}
     padding-right: 1rem;
 }
 
-.col-lg-6 #condition {
-    width: 90%;
-    max-width: 500px;
-    text-align: center;
-    padding: 10px;
+.conntact {
+    min-height: auto;
+    padding-bottom: 7rem;
 }
+
+.contact form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form .form-input {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
 
 footer {
     background-color: #3f3f3f;
@@ -392,6 +405,7 @@ footer {
     margin-top: 2rem;
     padding-top: 2rem;
 }
+
 
 /* Pages Under Construction */
 .construction {
