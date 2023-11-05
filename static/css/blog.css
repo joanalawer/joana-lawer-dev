@@ -366,21 +366,9 @@ center .section-subheading .text-muted {
 
 
 
-/* Contact stylinng */
-.col-lg-6 img{
-    border-radius: 15px;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
-}
-
-#contact-message {
-    font-family: 'Times New Roman';
-    font-style: italic;
-    text-align: right;
-}
-
-.address li{
-    list-style: none;
-}
+/* Contact styling */
+.address {
+margin-bottom: 30px;}
 
 .contact-details {
     font-size: 20px
@@ -389,17 +377,6 @@ center .section-subheading .text-muted {
 .contact-details  i{
     font-size: 20px;
     padding-right: 1rem;
-}
-
-.social-link li{
-    display: inline-block;
-    padding-top: 4em;
-}
-
-.social-link i{
-    font-size: 3em;
-    padding: 1rem;
-    color: #0f1011;
 }
 
 .col-lg-6 #condition {
