@@ -372,11 +372,6 @@ margin-bottom: 30px;}
 
 .contact-details {
     font-size: 20px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
 }
 
 .contact-details  i {
