@@ -451,10 +451,12 @@ center .section-subheading .text-muted {
 
 /* Footer */
 footer {
-    background-color: #3f3f3f;
-    color: #d5d5d5;
-    margin-top: 2rem;
-    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background: var(--second-bg-color);
+    padding: 2rem 9%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
