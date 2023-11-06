@@ -365,8 +365,9 @@ center .section-subheading .text-muted {
 }
 
 /* Contact styling */
-.address {
-margin-bottom: 30px;}
+.address .social-profile {
+    margin: .8rem 0 8rem;
+}
 
 .contact-details {
     font-size: 20px;
@@ -375,7 +376,6 @@ margin-bottom: 30px;}
 .contact-details  i {
     font-size: 20px;
     padding-right: 1rem;
-    
 }
 
 .contact {
