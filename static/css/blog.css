@@ -446,11 +446,8 @@ center .section-subheading .text-muted {
     cursor: pointer;
 }
 
-
-
-
 /* Footer */
-footer {
+.footer {
     display: flex;
     justify-content: space-between;
     background: var(--second-bg-color);
@@ -459,6 +456,42 @@ footer {
     flex-wrap: wrap;
 }
 
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-icon a {
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border: .2rem solid  var(--main-color);
+    border-radius: .6rem;
+}
+
+.footer-icon a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.footer-icon a:hover::before {
+    width: 100%;
+}
+
+.footer-icon a i {
+    font-size: 2.4rem;
+    color: var(--bg-color);
+}
 
 /* Pages Under Construction */
 .construction {
@@ -503,15 +536,13 @@ footer {
 }
 
 /*---Firefox Bug Fix ---*/
-.carousel-item{
+/* .carousel-item{
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
-}
-
-/*--- Fixed Background Image ---*/
+} */
 
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)
