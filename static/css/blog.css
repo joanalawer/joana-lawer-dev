@@ -472,6 +472,8 @@ center .section-subheading .text-muted {
     background: var(--main-color);
     border: .2rem solid  var(--main-color);
     border-radius: .6rem;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .footer-icon a::before {
