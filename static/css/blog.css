@@ -452,10 +452,10 @@ center .section-subheading .text-muted {
 .footer {
     display: flex;
     justify-content: space-between;
-    background: var(--second-bg-color);
-    padding: 2rem 9%;
     align-items: center;
     flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
 }
 
 .footer-text p {
