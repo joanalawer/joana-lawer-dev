@@ -474,7 +474,8 @@ center .section-subheading .text-muted {
     border-radius: .6rem;
     z-index: 1;
     overflow: hidden;
-}
+}    background: var(--second-bg-color);
+
 
 .footer-icon a::before {
     content: '';
@@ -485,7 +486,7 @@ center .section-subheading .text-muted {
     height: 100%;
     background: var(--second-bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .2s;
 }
 
 .footer-icon a:hover::before {
