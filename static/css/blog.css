@@ -466,7 +466,6 @@ center .section-subheading .text-muted {
     background: var(--second-bg-color);
 }
 
-
 .footer-icon a::before {
     content: '';
     position: absolute;
