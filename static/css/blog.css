@@ -314,22 +314,6 @@ center .section-subheading .text-muted {
     overflow: hidden;
 }
 
-/* .services .row i::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--main-color);
-    z-index: -1;
-    transition: .5s;
-}
-
-.services .row i:hover::before {
-    width: 100%;
-} */
-
 .services .row h4{
     font-size: 2.3rem;
 }
@@ -340,7 +324,6 @@ center .section-subheading .text-muted {
 }
 
 /* Portfolio design */
-/* Style Profile Image */
 .portfolio {
     background: var(--second-bg-color);
 }
@@ -367,6 +350,16 @@ center .section-subheading .text-muted {
 }
 
 /* Contact styling */
+/* .contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+} */
+
+.contact-heading {
+    display: inline;
+    font-size: 35px;
+}
+
 .address .social-profile {
     margin: .8rem 0 8rem;
 }
@@ -378,11 +371,6 @@ center .section-subheading .text-muted {
 .contact-details  i {
     font-size: 20px;
     padding-right: 1rem;
-}
-
-.contact {
-    min-height: auto;
-    padding-bottom: 7rem;
 }
 
 .contact form {
@@ -474,7 +462,8 @@ center .section-subheading .text-muted {
     border-radius: .6rem;
     z-index: 1;
     overflow: hidden;
-}    background: var(--second-bg-color);
+    background: var(--second-bg-color);
+}
 
 
 .footer-icon a::before {
