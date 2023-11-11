@@ -386,11 +386,11 @@ center .section-subheading .text-muted {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .contact form .form-input .input-field {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .contact form .form-input .input-field input,
 .contact form .textarea-field textarea {
