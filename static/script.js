@@ -29,3 +29,8 @@ window.onclick = function(event) {
 
 
 //  Scroll sections
+window.onscroll = () => {
+  // sticky header
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scroll > 100);
+}
