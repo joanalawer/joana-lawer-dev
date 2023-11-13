@@ -43,7 +43,7 @@ body {
 }
 
 .header.sticky {
-    background: yellowgreen;
+    background: var(--bg-color);
 }
 
 .logo_name {
