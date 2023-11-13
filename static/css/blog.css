@@ -471,6 +471,7 @@ center .section-subheading .text-muted {
 .footer-icon a i {
     font-size: 2.4rem;
     color: var(--bg-color);
+    transition: .5s;
 }
 
 /* Pages Under Construction */
