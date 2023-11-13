@@ -497,19 +497,38 @@ center .section-subheading .text-muted {
 
 /* BREAKPOINTS */
 /*---Media Queries ---*/
+/* Large (lg) devices (desktop, 992px and up) */
+@media (min-width: 992px) { 
+    .header {
+        padding: 2rem, 4%;
+    }
+
+    section {
+        padding: 10rem 4% 2rem;
+    }
+
+    .home {
+        padding: 0 4%;
+    }
+
+    .footer {
+        padding: 2rem 4%;
+    }
+ }
+
+ /* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 768px) { ... }
+
+
 
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 768px) { ... }
 
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 576px) { ... }
 
-Large (lg) devices (desktop, 992px and up)
-@media (min-width: 992px) { ... }
 
 Extra (xl) devices (larde desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
