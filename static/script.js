@@ -29,13 +29,14 @@ window.onclick = function(event) {
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.menu_list');
 
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle('bx-x');
+  navbar.classList.toggle('active')
+}
+
 //  Scroll sections
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
-
-menuIcon.onclick = () => {
-  navbar.classList.toggle('bx-x')
-}
 
 window.onscroll = () => {
   sections.forEach(sec => {
