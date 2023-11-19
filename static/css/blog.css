@@ -535,8 +535,15 @@ center .section-subheading .text-muted {
         padding: 1rem 4%;
         background: var(--bg-color);
         box-shadow: 0 .5rem 1rem rgba(0,0,0,0.2);
+        transition: .25s ease;
+        transition-delay: .25s;
     }
 
+    .menu_list.active {
+        left: 0;
+        transition-delay: 0s;
+    }
+    
     .menu_list a {
         display: block;
         font-size: 2rem;
