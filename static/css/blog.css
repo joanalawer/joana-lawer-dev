@@ -504,7 +504,7 @@ center .section-subheading .text-muted {
     }
  }
 
-/* Large (lg) devices (desktop, 992px and below) */
+/* Large (lg) devices*/
 @media (max-width: 992px) { 
     .header {
         padding: 2rem, 4%;
@@ -523,7 +523,7 @@ center .section-subheading .text-muted {
     }
  }
 
- /* Small (sm) devices (landscape phones, 576px and below) */
+ /* Small (sm) devices */
 @media (max-width: 768px) { 
     .header {
         /* padding: 2rem, 4%; */
@@ -586,6 +586,11 @@ center .section-subheading .text-muted {
     }
  }
 
+ /* Medium (md) devices */
+@media (max-width: 520px) { 
+    
+ }
+
 
 
 /* 
@@ -594,7 +599,4 @@ No media query since this is the default in Bootstrap
 
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 576px) { ... }
-
-Extra (xl) devices (larde desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
 */
