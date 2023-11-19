@@ -497,6 +497,13 @@ center .section-subheading .text-muted {
 
 /* BREAKPOINTS */
 /*---Media Queries ---*/
+/* Extra (xl) devices (larde desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    html {
+        font-size: 55%;
+    }
+ }
+
 /* Large (lg) devices (desktop, 992px and below) */
 @media (max-width: 992px) { 
     .header {
@@ -543,7 +550,7 @@ center .section-subheading .text-muted {
         left: 0;
         transition-delay: 0s;
     }
-    
+
     .menu_list a {
         display: block;
         font-size: 2rem;
