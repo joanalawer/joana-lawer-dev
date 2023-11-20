@@ -50,7 +50,13 @@ window.onscroll = () => {
       navLinks.forEach(links => {
         links.classList.remove('active');
         document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-      })
+      });ve
+      // active section for animation on scroll
+      sec.classList.add('show-animate');
+    }
+    // to use animation that repeats on scroll
+    else {
+      sec.classList.remove('show-animate');
     }
   });
 
