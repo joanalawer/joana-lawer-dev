@@ -47,9 +47,14 @@ body {
 }
 
 .logo_name {
+    position: relative;
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
+}
+
+.menu_list {
+    position: relative;
 }
 
 .menu_list a {
@@ -484,6 +489,23 @@ center .section-subheading .text-muted {
 .footer-icon a:hover i {
     color: var(--main-color);
 }
+
+/* ANIMATION RELOAD AND SCROLL */
+.animate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: yellowgreen;
+    z-index: 98;
+}
+
+.logo_name .animate, .menu_list .a {
+    animation: showRight 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+}
+
 /* Pages Under Construction */
 .construction {
     text-align: center;
@@ -626,5 +648,11 @@ Medium (md) devices (tablets, 768px and up)
 @keyframes homeSpinner {
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes showRight {
+    100% {
+        width: 0;
     }
 }
