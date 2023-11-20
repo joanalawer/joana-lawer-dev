@@ -618,3 +618,10 @@ No media query since this is the default in Bootstrap
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 576px) { ... }
 */
+
+/* KEYFRAMES ANIMATIONS */
+@keyframes homeSpinner {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
