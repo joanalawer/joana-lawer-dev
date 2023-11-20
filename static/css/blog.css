@@ -481,6 +481,9 @@ center .section-subheading .text-muted {
     transition: .5s;
 }
 
+.footer-icon a:hover i {
+    color: var(--main-color);
+}
 /* Pages Under Construction */
 .construction {
     text-align: center;
