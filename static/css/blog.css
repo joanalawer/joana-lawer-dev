@@ -502,7 +502,8 @@ center .section-subheading .text-muted {
     z-index: 98;
 }
 
-.logo_name .animate, .menu_list .animate, #menu-icon .animate {
+.logo_name .animate, .menu_list .animate, 
+#menu-icon .animate,  .home.show-animate .animate {
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
