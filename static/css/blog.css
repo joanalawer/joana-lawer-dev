@@ -120,6 +120,7 @@ span {
     border-bottom: .2rem solid var(--second-bg-color);
     border-left: .2rem solid var(--main-color);
     border-right: .2rem solid var(--main-color);
+    animation: homeSpinner 8s linear infinite;
 }
 
 .intro {
@@ -609,8 +610,6 @@ center .section-subheading .text-muted {
         margin-top: 2rem;
     }
 }
-
-
 
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)
