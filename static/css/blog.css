@@ -71,6 +71,7 @@ body {
 }
 
 #menu-icon {
+    position: relative;
     font-size: 3.6rem;
     color: var(--text-color);
     cursor: pointer;
@@ -501,7 +502,7 @@ center .section-subheading .text-muted {
     z-index: 98;
 }
 
-.logo_name .animate, .menu_list .a {
+.logo_name .animate, .menu_list .animate, #menu-icon .animate {
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
