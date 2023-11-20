@@ -133,7 +133,9 @@ span {
     text-align: center;
 }
 
-.intro h3{
+.intro h3 {
+    position: relative;
+    display: inline;
     font-size: 2.3rem;
 }
 
