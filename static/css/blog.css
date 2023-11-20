@@ -523,7 +523,7 @@ center .section-subheading .text-muted {
     }
  }
 
- /* Small (lg) devices */
+ /* Small (sm) devices */
 @media (max-width: 768px) { 
     .header {
         /* padding: 2rem, 4%; */
