@@ -505,8 +505,9 @@ center .section-subheading .text-muted {
     z-index: 98;
 }
 
-.logo_name .animate, .menu_list .animate, 
-#menu-icon .animate,  .home.show-animate .animate {
+.logo_name .animate, .menu_list .animate, #menu-icon .animate, 
+.home.show-animate .animate, 
+.services.show-animate .animate {
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
@@ -517,10 +518,10 @@ center .section-subheading .text-muted {
     animation: none;
 }
 
-/* .home.show-animate .animate.scroll {
+.home.show-animate .animate.scroll {
     transition-delay: calc(.3s * var(--i));
-    width: 0;
-} */
+    width: 100%;
+}
 
 /* Pages Under Construction */
 .construction {
