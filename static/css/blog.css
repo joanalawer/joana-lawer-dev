@@ -368,11 +368,10 @@ center .section-subheading .text-muted {
     margin: 2rem 3rem;
 }
 
-/* Contact styling */
-/* .contact {
-    min-height: auto;
-    padding-bottom: 7rem;
-} */
+/* Blog styling */
+.blog {
+    background: var(--second-bg-color);
+}
 
 .contact-heading {
     display: inline;
