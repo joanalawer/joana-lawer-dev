@@ -379,6 +379,11 @@ center .section-subheading .text-muted {
     min-height: 50vh;
 }
 
+.blog .row:nth-child(2) {
+    align-items: center;
+    justify-content: center;
+}
+
 /* Contact styling */
 .contact-heading {
     display: inline;
