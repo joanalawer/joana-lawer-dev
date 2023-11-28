@@ -25,7 +25,7 @@ window.onclick = function(event) {
   }
 }
 
-// SERVICE MODAL SECTION
+// SERVICES MODAL SECTION
 // Get the modal
 var modal = document.getElementById("profile-modal");
 
