@@ -327,12 +327,12 @@ center .section-subheading .text-muted {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
-    font-size: 50px;
+    font-size: 80px;
     color: var(--main-color);
     z-index: 1;
     overflow: hidden;
@@ -340,6 +340,7 @@ center .section-subheading .text-muted {
 
 .services .row h4{
     font-size: 2.3rem;
+    margin-top: 1rem;
 }
 
 .services .row:nth-child(2) p {
