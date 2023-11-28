@@ -27,7 +27,7 @@ window.onclick = function(event) {
 
 // SERVICES MODAL SECTION
 // Get the modal
-var modal = document.getElementById("profile-modal");
+var modal = document.getElementById("service-modal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("btn");
