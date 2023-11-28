@@ -376,6 +376,7 @@ center .section-subheading .text-muted {
 /* Blog styling */
 .blog {
     background: var(--second-bg-color);
+    min-height: 50vh;
 }
 
 /* Contact styling */
