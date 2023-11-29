@@ -30,13 +30,13 @@ window.onclick = function(event) {
 var modal = document.getElementById("service-modal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("btn");
+var icon = document.getElementById("icon");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
+icon.onclick = function() {
   modal.style.display = "block";
 }
 
