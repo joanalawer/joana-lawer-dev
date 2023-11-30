@@ -26,7 +26,7 @@ window.onclick = function(event) {
 }
 
 //*************************SERVICES MODAL SECTION ***************************** //
-var modal = document.getElementById("analysis-modal");
+var serviceModal = document.getElementById("analysis-modal");
 var icon = document.getElementById("chart-icon");
 var span = document.getElementsByClassName("close")[0];
 
