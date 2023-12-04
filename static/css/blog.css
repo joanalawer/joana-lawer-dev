@@ -324,7 +324,7 @@ section h3.section-subheading {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.services .row i {
+.services-icon a {
     text-decoration: none;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -336,12 +336,32 @@ section h3.section-subheading {
     width: 100px;
     height: 100px;
     background: transparent;
-    border: .2rem solid var(--main-color);
+    border: .3rem solid var(--main-color);
     border-radius: 50%;
     font-size: 50px;
     color: var(--main-color);
     z-index: 1;
     overflow: hidden;
+}
+
+.services-icon a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--main-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.services-icon a:hover::before {
+    width: 100%;
+}
+
+.services-icon i:hover {
+    color: var(--bg-color);
 }
 
 .services .row h4{
