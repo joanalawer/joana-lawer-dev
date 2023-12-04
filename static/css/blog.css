@@ -536,8 +536,7 @@ section h3.section-subheading {
 }
 
 .logo_name .animate, .menu_list .animate, #menu-icon .animate, 
-.home.show-animate .animate, 
-.services.show-animate .animate {
+.home.show-animate .animate {
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
