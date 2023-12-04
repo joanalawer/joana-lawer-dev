@@ -535,21 +535,10 @@ section h3.section-subheading {
     z-index: 98;
 }
 
-.logo_name .animate, .menu_list .animate, #menu-icon .animate, 
-.home.show-animate .animate {
+.logo_name .animate, 
+.menu_list .animate, #menu-icon .animate {
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
-}
-
-.animate.scroll {
-    transition: 1s ease;
-    transition-delay: calc(.3s / var(--i));
-    animation: none;
-}
-
-.home.show-animate .animate.scroll {
-    transition-delay: calc(.3s * var(--i));
-    width: 100%;
 }
 
 /* Pages Under Construction */
