@@ -26,23 +26,7 @@ window.onclick = function(event) {
 }
 
 //*************************SERVICES MODAL SECTION ***************************** //
-var serviceModal = document.getElementById("analysis-modal");
-var icon = document.getElementById("icon1");
-var span = document.getElementsByClassName("close")[0];
 
-icon.onclick = function() {
-  modal.style.display = "block";
-}
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 //*************************SERVICES MODAL ENDS ***************************** //
 
 // Toggle navbar icon
